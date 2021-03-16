@@ -60,7 +60,7 @@ async def handle_event(device):
         print("device err!restart loop event")
         loop = asyncio.get_event_loop() 
         loop.stop()
-        await asyncio.sleep(8)
+        await asyncio.sleep(5)
 
 def run():
     while True:
